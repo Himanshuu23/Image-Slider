@@ -1,0 +1,28 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.img-container {
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    padding: 2px;
+}
+
+.img {
+    position: relative;
+    object-fit: cover;
+    height: 70%;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.circular-btn {
+    position: absolute;
+    outline: none;
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
